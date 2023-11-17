@@ -93,7 +93,7 @@ public class FamilyTree
 	//
 	// Displays a file browser so that user can select the family tree file.
 	//
-	public FamilyTree() throws IOException, TreeException
+	public FamilyTree(String s) throws IOException, TreeException
 	{
 		// User chooses input file. This block doesn't need any work.
 		FileNameExtensionFilter filter = 
